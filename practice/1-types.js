@@ -12,7 +12,12 @@ function pageLoad() {
   // Also set a third variable - total, which sums the two die values
   // Start by hard-coding the values (1-6), then attempt to use the 
   // getRandomInt() function to randomize the values
-  
+
+  let die1 = getRandomInt(6)
+  let die2 = getRandomInt(6)
+  let total = die1 + die2
+
+
   //  👆 YOUR CODE ENDS HERE. DON'T CHANGE ANY OTHER CODE 👆
   
   // Leave this alone
